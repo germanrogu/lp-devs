@@ -6,7 +6,7 @@ export const Card = () => {
   return (
     <div className="max-w-sm bg-white shadow">
       <a href="#a">
-        <img src={cardImage} alt="card_image" />
+        <img className="bg-cover bg-center" src={cardImage} alt="card_image" />
       </a>
       <div className="p-5">
         <a href="#a">

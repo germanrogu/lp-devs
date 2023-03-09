@@ -4,7 +4,7 @@ import sectionImage from "../../assets/Sectionthree.png";
 
 export const SectionThree = () => {
   return (
-    <div className="flex flex-wrap py-6 bg-blue-600">
+    <div className="flex flex-col md:flex-row w-full md:w-3/4 m-auto py-6 bg-blue-600">
       <div className="w-full md:w-1/2 lg:w-1/2">
         <div className="flex flex-wrap justify-center">
           <div className="">

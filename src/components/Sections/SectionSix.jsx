@@ -3,7 +3,7 @@ import { Card } from "../ui/Card/Card";
 
 export const SectionSix = () => {
   return (
-    <div className="flex flex-wrap py-6 bg-gray-200 h-160 md:h-160 align-center">
+    <div className="flex flex-col md:flex-row w-full md:w-3/4 m-auto py-6 bg-gray-200 align-center">
       <div className="w-full md:w-1/2 lg:w-1/2 ">
         <Card />
       </div>

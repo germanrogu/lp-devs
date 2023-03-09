@@ -8,7 +8,7 @@ import { ItemChart } from "../ui/ItemChart/ItemChart";
 
 export const SectionFive = () => {
   return (
-    <div className="flex flex-wrap py-14 bg-blue-600">
+    <div className="flex flex-col md:flex-row w-full md:w-3/4 m-auto py-14 bg-blue-600">
       <div className="w-full md:w-full flex flex-col md:flex-row justify-center">
         <div className="w-full md:w-1/3">
           <ItemChart quantity={"2.620"}>
