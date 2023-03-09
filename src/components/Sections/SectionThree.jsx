@@ -1,5 +1,6 @@
 import React from "react";
 import { ButtonSubmit } from "../ui/Buttons/ButtonSubmit";
+import sectionImage from "../../assets/Sectionthree.png";
 
 export const SectionThree = () => {
   return (
@@ -8,7 +9,7 @@ export const SectionThree = () => {
         <div className="flex flex-wrap justify-center">
           <div className="">
             <img
-              src="https://www.creative-tim.com/learning-lab/tailwind-starter-kit/img/team-1-800x800.jpg"
+              src={sectionImage}
               alt="..."
               className="h-40 md:h-96 align-middle border-none"
             />

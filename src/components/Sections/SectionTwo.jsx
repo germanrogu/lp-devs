@@ -1,4 +1,5 @@
 import React from "react";
+import SectionImage from "../../assets/SectionTwo.png";
 
 export const SectionTwo = () => {
   return (
@@ -19,7 +20,7 @@ export const SectionTwo = () => {
         <div className="flex flex-wrap justify-center">
           <div className="">
             <img
-              src="https://www.creative-tim.com/learning-lab/tailwind-starter-kit/img/team-1-800x800.jpg"
+              src={SectionImage}
               alt="..."
               className="h-40 md:h-96 align-middle border-none"
             />
