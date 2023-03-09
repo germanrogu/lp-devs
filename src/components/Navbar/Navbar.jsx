@@ -12,7 +12,35 @@ export const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
   return (
     <>
-      <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 bg-white mb-3">
+      <nav class="bg-white">
+        <div class="flex flex-wrap justify-end items-center mx-auto max-w-screen-xl pt-6 mr-6 md:mr-26">
+          <div class="flex items-center">
+            <div className="flex mt-4 sm:justify-center sm:mt-0">
+              <a
+                className="px-1  flex items-center text-xl uppercase font-bold text-blue-800 hover:opacity-75"
+                href="#linkedin"
+              >
+                <LinkedinFilled />
+              </a>
+
+              <a
+                className="px-1  flex items-center text-xl uppercase font-bold text-blue-800 hover:opacity-75"
+                href="#facebook"
+              >
+                <FacebookFilled />
+              </a>
+
+              <a
+                className="px-1  flex items-center text-xl uppercase font-bold text-blue-800 hover:opacity-75"
+                href="#instagram"
+              >
+                <InstagramFilled />
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <nav className="relative flex flex-wrap items-center justify-between px-2 pb-3 bg-white mb-3">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <Logo />
@@ -27,28 +55,6 @@ export const Navbar = () => {
           >
             <ItemNavbar />
           </div>
-        </div>
-        <div>
-          <a
-            className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
-            href="#linkedin"
-          >
-            <LinkedinFilled />
-          </a>
-
-          <a
-            className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
-            href="#facebook"
-          >
-            <FacebookFilled />
-          </a>
-
-          <a
-            className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
-            href="#instagram"
-          >
-            <InstagramFilled />
-          </a>
         </div>
       </nav>
     </>
