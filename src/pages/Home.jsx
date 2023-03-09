@@ -15,12 +15,15 @@ export const Home = () => {
   return (
     <>
       <Navbar />
+      {/* <div className="max-w-7xl"> */}
       <SectionOne onClick={handleClick} />
       <SectionTwo />
       <SectionThree />
       <SectionFour />
       <SectionFive />
       <SectionSix />
+      {/* </div> */}
+
       <Footer />
     </>
   );

@@ -18,7 +18,7 @@ export const Footer = () => {
               billions of dollars, because I got the answers.
             </p>
           </div>
-          <div className="grid grid-cols-2 gap-6 md:gap-3 md:grid-cols-2">
+          <div className="grid grid-cols-2 gap-3 md:gap-36 md:grid-cols-2">
             <div>
               <ul>
                 <li className="mb-4 text-white hover:text-gray-300 uppercase font-bold text-sm">
