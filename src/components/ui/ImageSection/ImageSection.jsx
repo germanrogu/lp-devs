@@ -9,9 +9,9 @@ export const ImageSection = () => {
           "https://www.kindacode.com/wp-content/uploads/2022/06/night-sky.jpeg" +
           ")",
       }}
-      className="h-40 md:h-96 bg-cover bg-center"
+      className="md:h-96 bg-cover bg-center"
     >
-      <div className="h-40 md:h-96 py-4 md:py-28 px-5 md:px-16 grid grid-cols-1 gap-0 md:gap-1">
+      <div className=" md:h-96 py-4 md:py-28 px-5 md:px-16 grid grid-cols-1 gap-0 md:gap-1">
         <h1 className="text-base md:text-3xl font-bold text-white pb-5 uppercase">
           Title goes here
         </h1>

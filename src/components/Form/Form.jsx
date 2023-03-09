@@ -25,7 +25,7 @@ export const Form = ({ onClick }) => {
               type="email"
               autoComplete="email"
               required
-              className="appearance-none relative block
+              className="relative block
             w-full px-3 py-2 border border-gray-300
             placeholder-gray-500 text-gray-900
             focus:outline-none focus:ring-indigo-500
@@ -33,6 +33,20 @@ export const Form = ({ onClick }) => {
               placeholder="Placeholder"
             />
           </div>
+          <div className="py-1">
+            <select
+              id="countries"
+              className="relative block
+            w-full px-3 py-2 border border-gray-300
+            placeholder-gray-500 text-gray-500
+            focus:outline-none focus:ring-indigo-500
+            focus:border-indigo-500 focus:z-10 sm:text-sm"
+            >
+              <option selected>Placeholder</option>
+              <option value="option1">Option 1</option>
+            </select>
+          </div>
+
           <div className="py-1">
             <label htmlFor="password" className="sr-only">
               Password
@@ -43,7 +57,7 @@ export const Form = ({ onClick }) => {
               type="password"
               autoComplete="current-password"
               required
-              className="appearance-none relative block
+              className="relative block
             w-full px-3 py-2 border border-gray-300
             placeholder-gray-500 text-gray-900
             focus:outline-none focus:ring-indigo-500
