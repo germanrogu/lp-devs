@@ -1,5 +1,5 @@
 import React from "react";
-import { itemsOptions } from "../../../constants/ItemNavigation";
+import { itemsOptions } from "../../../constants/Items";
 
 export const ItemNavbar = () => {
   return (
