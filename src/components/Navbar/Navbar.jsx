@@ -12,9 +12,9 @@ export const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
   return (
     <>
-      <nav class="bg-white">
-        <div class="flex flex-wrap justify-end items-center mx-auto max-w-screen-xl pt-6 mr-6 md:mr-26">
-          <div class="flex items-center">
+      <nav className="bg-white">
+        <div className="flex flex-wrap justify-end items-center mx-auto max-w-screen-xl pt-6 mr-6 md:mr-26">
+          <div className="flex items-center">
             <div className="flex mt-4 sm:justify-center sm:mt-0">
               <a
                 className="px-1  flex items-center text-xl uppercase font-bold text-blue-800 hover:opacity-75"
@@ -40,7 +40,7 @@ export const Navbar = () => {
           </div>
         </div>
       </nav>
-      <nav className="relative flex flex-wrap items-center justify-between px-2 pb-3 bg-white mb-3">
+      <nav className="relative flex flex-wrap items-center justify-between px-2 pb-2 bg-white mb-3">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <Logo />
