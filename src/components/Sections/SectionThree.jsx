@@ -7,16 +7,14 @@ export const SectionThree = () => {
     <div className="flex flex-col md:flex-row w-full md:w-3/4 m-auto py-6 bg-blue-600">
       <div className="w-full md:w-1/2 lg:w-1/2">
         <div className="flex flex-wrap justify-center">
-          <div className="">
-            <img
-              src={sectionImage}
-              alt="..."
-              className="h-40 md:h-96 align-middle border-none"
-            />
-          </div>
+          <img
+            src={sectionImage}
+            alt="sectionImage"
+            className="h-40 md:h-96 align-middle border-none"
+          />
         </div>
       </div>
-      <div className="w-full md:w-1/2 lg:w-1/2 h-40 md:h-96 flex flex-col place-content-center">
+      <div className="w-full md:w-1/2 lg:w-1/2 py-4 px-5 md:h-96 flex flex-col place-content-center">
         <h4 className="text-2xl font-bold leading-normal mt-0 mb-2 text-white pt-14">
           LOREM IPSUM
         </h4>

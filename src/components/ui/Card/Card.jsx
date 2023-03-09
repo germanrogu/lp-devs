@@ -4,7 +4,7 @@ import cardImage from "../../../assets/CardImage.png";
 
 export const Card = () => {
   return (
-    <div className="max-w-sm bg-white shadow">
+    <div className="w-2/3 bg-white shadow">
       <a href="#a">
         <img className="bg-cover bg-center" src={cardImage} alt="card_image" />
       </a>

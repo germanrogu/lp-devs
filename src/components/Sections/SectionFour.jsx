@@ -4,7 +4,7 @@ import sectionImage from "../../assets/SectionFour.png";
 export const SectionFour = () => {
   return (
     <div className="flex flex-col md:flex-row w-full md:w-3/4 m-auto py-6">
-      <div className="w-full md:w-1/2 lg:w-1/2 h-40 md:h-96 flex flex-col place-content-center pl-14">
+      <div className="w-full md:w-1/2 lg:w-1/2 py-6 md:h-96 flex flex-col place-content-center pl-14">
         <h4 className="text-2xl font-bold leading-normal mt-0 mb-2 text-red-600">
           LOREM IPSUM
         </h4>
@@ -19,7 +19,7 @@ export const SectionFour = () => {
           <div className="">
             <img
               src={sectionImage}
-              alt="..."
+              alt="sectionImage"
               className="h-40 md:h-96 align-middle border-none"
             />
           </div>
